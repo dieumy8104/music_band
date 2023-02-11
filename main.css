@@ -1,0 +1,392 @@
+body {
+    font-family: "Lato", sans-serif !important;
+    font-size: 15px;
+    line-height: 1.5!important;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main-menu {
+    background-color: black;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    height: 46.5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#main-menu ul li {
+    float: left;
+}
+
+#main-menu li a{
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#main-menu li a:hover {
+    color: black;
+    background-color: #c9c8c8;
+}
+
+
+.search{
+    float: right;
+}
+
+/* 
+#main-menu nav ul {
+    line-height: 46.5px;
+}
+
+#main-menu nav ul > li {
+    float: left;
+}
+
+#main-menu li a, #main-menu li > i {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+}
+
+#main-menu nav ul li.drop-down:hover > a{
+    display: inline-block;
+    padding: 0 24px;
+
+}
+
+#main-menu li:hover:not(.drop-down), li.drop-down:hover > a {
+    background-color: rgb(185, 185, 185);
+}
+
+#main-menu li:hover a {
+    color: black;
+}
+
+.drop-down li{
+    list-style: none;
+}
+.drop-down ul {
+    display: none;
+}
+
+.drop-down:hover ul {
+    border: none;
+    display: block;
+}
+
+.drop-down:hover ul li{
+    float: none !important;
+    background-color: white;
+}
+
+.search {
+    color: white;
+    float: right !important;
+    text-align: center;
+    list-style: none;
+}
+
+.search:hover {
+    background-color: red !important;
+}
+
+.search:hover i {
+    color: #fff;
+} */
+
+.image img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.content {
+    padding: 64px 16px;
+    margin: 0 88px;
+}
+
+.content-heading {
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content-heading-span {
+    opacity: 0.6;
+    font-style: italic;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.content-heading-para {
+    padding: 15px 0;
+    text-align: justify;
+}
+
+.content-heading-img {
+    padding: 32px 0;
+    margin: 0;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.content-heading-img-member {
+    border-radius: 4px;
+}
+
+.content-heading-img-name {
+    margin: 15px 0;
+}
+
+.content-heading-img-member:last-child {
+    margin: 0;
+}
+
+.tour-dates {
+    padding: 64px 14px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black!important;
+}
+
+.tour-dates-heading-center {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.tour-dates-heading-opacity {
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+.month {
+    width: 100%;
+    background-color: white;
+}
+
+.month-padding {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+}
+
+.month-padding-red {
+    background-color: #f44336;
+    color: white;
+    margin: 0 0 0 16px;
+    padding: 0 8px;
+}
+
+.month-padding-number {
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin: 0 16px 0 0;
+    padding: 0 8px;
+}
+
+.buy-tickets {
+    background-color: black;
+    width: 100%;
+    box-sizing: inherit;
+    clear: both;
+    display: table;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+
+.buy-tickets-third {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    box-sizing: inherit;
+}
+
+.buy-tickets-third:last-child {
+    float: right;
+    margin: 0;
+}
+
+.buy-tickets-third-img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.buy-tickets-third-bottom {
+    background-color: white;
+    padding: 0.15px 16px;
+}
+
+.buy-tickets-third-img:hover {
+    opacity: 0.5;
+}
+
+.buy-tickets-third-place {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.buy-tickets-third-opacity {
+    margin: 15px 0;
+    opacity: 0.5;
+}
+
+.buy-tickets-third-para {
+    margin: 15px 0;
+}
+
+.buy-tickets-third-button {
+    display: block !important;
+    background-color: black;
+    color: white;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-tickets-third-button:hover {
+    background-color: #c9c8c8;
+    color: black;
+}
+
+.contact {
+    padding: 64px 16px;
+    margin: 0px 88px;
+}
+
+.contact-center {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact-opacity {
+    opacity: 0.6;
+    font-style: italic;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.contact-padding {
+    padding: 32px 0;
+}
+
+.contact-row-w3{
+    display: table;
+    padding-bottom: 8px;
+}
+.contact-padding-adress {
+    margin: 0 0 16px;
+    font-size: 18px;
+    width: 30%;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.contact-col{
+    float: right;
+}
+
+.contact-padding-input{
+    width: 48.2%;
+    border: 1px solid #ccc;
+    padding: 0 8px;
+    border: none;
+}
+.contact-padding-input-half{
+    padding: 8px;
+    font-size: 15px;
+}
+
+.contact-padding-input-full{
+    padding: 8px;
+    font-size: 15px;
+    margin-left: 24px;
+}
+
+.contact-padding-input {
+    border: 1px solid #ccc;
+    padding: 0 8px;
+    border: none;
+    float: right;
+}
+.contact-padding-input-half {
+    padding: 8px;
+    display: block;
+    float: left;
+}
+
+.contact-padding-input-full {
+    display:block;
+    width:95%;
+}
+
+.contact-padding-input-black{
+    float: right;
+}
+.contact-padding-input-black {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px 18px;
+    border: none;
+    margin: 16px 0;
+    font-size: 15px;
+}
+
+.contact-padding-input-black:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.map img {
+    vertical-align: bottom;
+    filter: grayscale(50%);
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 64px 16px;
+    opacity: 0.60;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer i:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-medium {
+    margin: 15px 0;
+}
+
+.footer-medium a {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+}
