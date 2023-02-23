@@ -1,13 +1,17 @@
-body {
-    font-family: "Lato", sans-serif !important;
-    font-size: 15px;
+ body {
     line-height: 1.5!important;
 }
 
 * {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+.menu{
+    min-width: 800px;
 }
 
 .main-menu-parent{
@@ -19,6 +23,7 @@ body {
     left:0;
     z-index: 99;
     padding-left: 0;
+    cursor: pointer;
 }
 
 .menu-item{
@@ -42,6 +47,7 @@ body {
 .sub-menu{
     display: none;
     padding: 0;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .sub-menu:hover{
@@ -86,6 +92,7 @@ body {
 .content {
     padding: 64px 16px;
     margin: 0 20%;
+    min-width: 800px;
 }
 
 .content-heading {
@@ -122,6 +129,7 @@ body {
 
 .content-heading-img-member {
     border-radius: 4px;
+    width: 60%;
 }
 
 .content-heading-img-name {
@@ -133,6 +141,7 @@ body {
 }
 
 .tour-dates {
+    min-width: 800px;
     padding: 64px 16px;
     width: 100%;
     background-color: black!important;
@@ -175,6 +184,7 @@ body {
 
 .month-border{
     padding: 0;
+    margin-top: 30px;
 }
 
 .month-padding-red {
@@ -199,8 +209,8 @@ body {
     box-sizing: inherit;
     clear: both;
     display: table;
-    padding-top: 32px!important;
-    padding-bottom: 32px!important;
+    padding-top: 20px!important;
+    padding-bottom: 40px!important;
 }
 
 .buy-tickets-third {
@@ -285,112 +295,119 @@ display: block;
 .pay-tickets{
     margin: 0 17%;
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
-   
 }
-    .pay-tickets-container{
-        padding: 32px 16px;
-        background-color: #009688;
-        color: white;
-        height: 129px;
-        position: relative;   
+
+.pay-tickets-container{
+    padding: 32px 16px;
+    background-color: #009688;
+    color: white;
+    height: 129px;
+       position: relative;   
 }
-    
+
     .pay-tickets-onclick{
-        font-size: 24px;
-        text-decoration: none;
-        color: white;
-        padding: 8px 16px;
-        position: absolute;
-        right: 0;
-        top: 0;
-        cursor: pointer;
-    }
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
     
-    .pay-tickets-onclick:hover{
+.pay-tickets-onclick:hover{
     background-color: #ccc;
     color: #000;
-    }
+}
     
-    .pay-tickets-container-heading{
-        font-family: "Segoe UI",Arial,sans-serif;
-        font-weight: 400;
-        margin: 10px 0;
-        font-size: 30px;
-        letter-spacing: 4px;
-        text-align: center;
-    }
-    
-    .pay-tickets-onclick{
-        float: right;
-    }
-    
-    .pay-tickets-content{
-        padding: 0 16px;
-        background-color: white!important;
-    }
-    
-    .cart-items{
-        padding: 15px 0;
-        margin: 0;
-    }
-    
-    .cart-input{
-        padding: 8px;
-        border: 1px solid #ccc;
-        width: 100%;
-    }
-    
-    .user-items{
-        margin: 15px 0;
-    }
-    
-    .user-input{
-        padding: 8px;
-        border: 1px solid #ccc;
-        width: 100%;
-    }
-    
-    .pay-tickets-button{
-        margin: 16px 0;
-        padding: 16px;
-        width: 100%;
-        border: none;
-        background-color: #009688;
-        color: white;
-    }
-    
-    .pay-tickets-button:hover {
-        color: #000!important;
-        background-color: #ccc!important
-    }
-    
-    .pay-tickets-button-red{
-        background-color: white;
-        padding: 16px 0;
-    }
-    
-    .pay-tickets-close{
-        border: 0;
-        background-color: #F44336;
-        color: white;
-        padding: 8px 16px;
-    }
-    
-    .pay-tickets-close:hover{
-        background-color: #ccc;
-        color: #000;
-        padding: 8px 16px;
-    }
-    
-    .pay-tickets-para{
-        float: right;
-    }
+.pay-tickets-container-heading{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
 
-  
+.pay-tickets-container-heading i{
+    font-size: inherit;
+}
+    
+.pay-tickets-onclick{
+   float: right;
+}
+    
+.pay-tickets-content{
+    padding: 0 16px;
+    background-color: white!important;
+}
+    
+.cart-items{
+    padding: 15px 0;
+    margin: 0;
+}
+
+.cart-items i{
+    font-size: inherit;
+}
+    
+.cart-input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+    
+.user-items{
+    margin: 15px 0;
+}
+    
+.user-input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+    
+.pay-tickets-button{
+    margin: 16px 0;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    background-color: #009688;
+    color: white;
+}
+    
+.pay-tickets-button:hover {
+    color: #000!important;
+    background-color: #ccc!important
+}
+    
+.pay-tickets-button-red{
+    background-color: white;
+    padding: 16px 0;
+}
+    
+.pay-tickets-close{
+    border: 0;
+    background-color: #F44336;
+    color: white;
+    padding: 8px 16px;
+}
+    
+.pay-tickets-close:hover{
+    background-color: #ccc;
+    color: #000;
+    padding: 8px 16px;
+}
+    
+.pay-tickets-para{
+    float: right;
+}
 
 .contact {
-    padding: 64px 16px;
+    padding: 64px 16px 130px 16px;
     margin: 0px 20%;
+    min-width: 800px;
 }
 
 .contact-center-h2{
@@ -401,6 +418,7 @@ display: block;
     font-weight: 400;
     text-align: center;
 }
+
 .contact-opacity {
     opacity: 0.6;
     font-style: italic;
@@ -429,12 +447,14 @@ display: block;
 }
 
 .contact-padding-input{
-    width: 48.2%;
+    width: 44%;
     padding: 0 8px;
     border: none;
 }
+
 .contact-padding-input-half{
     padding: 8px;
+    width: 100%;
     font-size: 15px;
     border: 1px solid #ccc;
 }
@@ -442,12 +462,11 @@ display: block;
 .contact-padding-input-full{
     padding: 8px;
     font-size: 15px;
-    margin-left: 24px;
+    margin-left: 62px;
     border: 1px solid #ccc;
 }
 
 .contact-padding-input {
-    
     padding: 0 8px;
     border: none;
     float: right;
@@ -460,19 +479,17 @@ display: block;
 
 .contact-padding-input-full {
     display:block;
-    width:95%;
+    width:84.5%;
 }
 
 .contact-padding-input-black{
     float: right;
-}
-.contact-padding-input-black {
     background-color: black;
     color: white;
     cursor: pointer;
     padding: 10px 18px;
     border: none;
-    margin: 16px 0;
+    margin: 16px 8px 16px 0;
     font-size: 15px;
 }
 
@@ -491,8 +508,6 @@ display: block;
     text-align: center;
     background-color: #f1f1f1;
     padding: 64px 16px;
-    opacity: 0.60;
-    font-size: 24px;
     color: rgba(0, 0, 0, 0.6);
 }
 
@@ -508,7 +523,6 @@ display: block;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.6);
 }
-
 
 @keyframes modalShow{
     from{

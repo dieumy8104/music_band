@@ -7,14 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>W3.CSS Templatet</title>
         <link rel="stylesheet" href="main.css" />
-        <link rel="stylesheet" type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    </head>
-
+            <link rel="stylesheet" href="icon-font/fontawesome/css/all.min.css">
+        </head>
 
     <body>
+
         <!-- Main-menu -->
         <section class="menu">
             <div class="main-menu">
@@ -46,6 +45,7 @@
                     </ul>
                 </nav>
         </section>
+
         <!-- slider -->
         <section class="slide">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -62,6 +62,7 @@
                 </div>
             </div>
         </section>
+
         <!-- The Band -->
         <section class="content">
             <div class="content-heading">
@@ -83,20 +84,22 @@
                     consequat. Nam
                 </p>
             </div>
+
             <!-- Member -->
             <div class="content-heading-img">
                 <div class="content-heading-img-name"><span>Name</span></div>
-                <img src="image/img4.jpg" class="content-heading-img-member" style="width: 50%" />
+                <img src="image/img4.jpg" class="content-heading-img-member"/>
             </div>
             <div class="content-heading-img">
                 <div class="content-heading-img-name"><span>Name</span></div>
-                <img src="image/img4.jpg" class="content-heading-img-member" style="width: 50%" />
+                <img src="image/img4.jpg" class="content-heading-img-member"/>
             </div>
             <div class="content-heading-img">
                 <div class="content-heading-img-name"><span>Name</span></div>
-                <img src="image/img4.jpg" class="content-heading-img-member" style="width: 50%" />
+                <img src="image/img4.jpg" class="content-heading-img-member"/>
             </div>
         </section>
+
         <!-- TOUR DATES -->
         <section class="tour-dates" id="#tourdate">
             <div class="tour-dates-margin">
@@ -119,6 +122,7 @@
                         </li>
                     </ul>
                 </div>
+
                 <!-- buy-tickets -->
                 <div class="buy-tickets">
                     <div class="buy-tickets-third">
@@ -157,6 +161,7 @@
                 </div>
             </div>
         </section>
+
         <!--open modal  -->
        <section class="hide">
         <div class="popup"  id="modal">
@@ -164,21 +169,26 @@
                     <div class="pay-tickets">
                         <header class="pay-tickets-container">
                             <div>
-                                <a href="#tourday" class="pay-tickets-onclick">x</a>
+                                <a href="#tourday" class="pay-tickets-onclick">×</a>
                             </div>
-                            <h2 class="pay-tickets-container-heading"><i class="fa-solid fa-suitcase"></i> Tickets</h2>
+                            <h2 class="pay-tickets-container-heading">
+                                <i class="fa fa-suitcase"></i>
+                                 Tickets
+                            </h2>
                         </header>
                         <div class="pay-tickets-content">
                             <div class="cart">
-                                <p class="cart-items"><i class="fa-solid fa-cart-shopping"></i> Tickets, $15 person</p>
+                                <p class="cart-items">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                     Tickets, $15 per person</p>
                                 <input type="text" class="cart-input" placeholder="How many?">
                             </div>
                             <div class="pay-tickets-email">
-                                <p class="user-items"><i class="fa-solid fa-user"></i>Send to</p>
+                                <p class="user-items"><i class="fa fa-user"></i> Send to</p>
                                 <input type="text" class="user-input" placeholder="Enter email">
                             </div>
                             <div class="pay-button">
-                                <button class="pay-tickets-button">PAY <i class="fa-solid fa-check"></i></button>
+                                <button class="pay-tickets-button">PAY<i class="fa fa-check"></i></button>
                             </div>
                             <div class="pay-tickets-button-red">
                                 <a href="#tourday"><button class="pay-tickets-close">Close <i class="fa fa-remove"></i></button></a>
@@ -192,13 +202,14 @@
             </div>
         </div>
        </section>
+
         <!-- CONTACT -->
         <section class="contact">
             <div class="contact-center">
                 <h2 class="contact-center-h2">CONTACT</h2>
             </div>
-            <div class="contact-opacity">
-                <p><i>Fan? Drop a note!</i></p>
+            <div>
+                <p class="contact-opacity"><i>Fan? Drop a note!</i></p>
             </div>
             <div class="contact-padding">
                 <div class="contact-padding-adress">
@@ -206,19 +217,19 @@
                     <br />
                     <i class="fa-solid fa-phone" style="width:30px;"></i>Phone: +00 151515
                     <br />
-                    <i class="fa-solid fa-envelope" style="width:30px;"></i> Email: mail@mail.com
+                    <i class="fa-solid fa-envelope" style="width:30px;"></i>Email: mail@mail.com
                     <br />
                 </div>
                 <div class="contact-col">
                     <form class="contact-form" action="/action_page.php">
                         <div class="contact-row-w3">
                             <div class="contact-padding-input">
-                                <input class="contact-padding-input-half" type="text" placeholder="Name" required
-                                    name="Name" />
-                            </div>
-                            <div class="contact-padding-input">
                                 <input class="contact-padding-input-half" type="text" placeholder="Email" required
                                     name="Email" />
+                            </div>
+                            <div class="contact-padding-input">
+                                <input class="contact-padding-input-half" type="text" placeholder="Name" required
+                                    name="Name" />
                             </div>
                         </div>
                         <div class="contact-padding-button">
@@ -235,14 +246,15 @@
         <section class="map">
             <img class src="image/map.jpg" />
         </section>
+
         <!-- footer -->
         <section id="footer">
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-snapchat"></i>
-            <i class="fa-brands fa-pinterest-p"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-square-facebook" style="font-size: 24px;"></i>
+            <i class="fa-brands fa-instagram" style="font-size: 24px;"></i>
+            <i class="fa-brands fa-snapchat" style="font-size: 24px;"></i>
+            <i class="fa-brands fa-pinterest-p" style="font-size: 24px;"></i>
+            <i class="fa-brands fa-twitter" style="font-size: 24px;"></i>
+            <i class="fa-brands fa-linkedin-in" style="font-size: 24px;"></i>
             <p class="footer-medium">
                 Powered by
                 <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">
@@ -251,9 +263,7 @@
         </section>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        
-
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
             <script>
                 var count = 0;
                         function carousel() {
@@ -267,12 +277,7 @@
                             else count++;
                             setTimeout(carousel, 4000);
                         }
-            
                         carousel(); 
                 </script>
     </body>
     </html>
-
-
-    <!-- https://www.youtube.com/watch?v=494HPoUmqdI&list=PLJ5qtRQovuEOoKffoCBzTfvzMTTORnoyp&index=16
-    <! zendvn.com login => mafia.baonguyen@yahoo.com bao123456 -->
